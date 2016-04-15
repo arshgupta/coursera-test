@@ -2,16 +2,25 @@
      h1 , input{
      	background-color : white;
      	border-bottom: 1px solid black;
+        color: teal;
 
         }
      body{
         align-content : center;
         font-family: Arial , Geneva , Arial Black;
         font-weight: normal;
+        background-color: rgb(224,198,148);
      }
-     .hi{
+     p.hi{
      	color: green;
      }
+     p.yo{
+        font-style: oblique;
+     }
+     p.hiyo{
+        font-style: italic;
+     }
+
      .underline{
      	text-decoration: underline;
      }
