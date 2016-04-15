@@ -1,0 +1,18 @@
+
+     h1 , input{
+     	background-color : white;
+     	border-bottom: 1px solid black;
+
+        }
+     body{
+        align-content : center;
+        font-family: Arial , Geneva , Arial Black;
+        font-weight: normal;
+     }
+     .hi{
+     	color: green;
+     }
+     .underline{
+     	text-decoration: underline;
+     }
+	
