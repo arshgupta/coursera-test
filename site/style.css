@@ -1,27 +1,206 @@
 
+     a:link{
+        color: blue;
+     }
+     a:visited {
+        color: green;
+     }
+     a:hover{
+        color: red;
+     }
      h1 , input{
      	background-color : white;
+
      	border-bottom: 1px solid black;
         color: teal;
 
         }
+    h1 {
+        font-size: 150%;
+        text-align: center;
+    }
      body{
-        align-content : center;
+        align-content:center;
         font-family: Arial , Geneva , Arial Black;
         font-weight: normal;
         background-color: rgb(224,198,148);
+        font-size: 25px;
+        border-width: 2px;
+        border-color : aqua;
+        border-style: solid;
+
      }
      p.hi{
-     	color: green;
+     	color: blue;
+        line-height: 1.5em;
+        font-size : 20px;
+        background-color : rgb(212,212,212);
+        padding : 20px;
+        border-width: 2px;
+        border-color : black;
+        border-style: solid;
+        height : 300px;
+        overflow: scroll;
      }
+     p.hifi{
+        color: black;
+        line-height: 1.5em;
+        font-size : 20px;
+        background-image: url(ii.jpg); 
+        padding : 20px;
+        border-width: thick;
+        border-color : green;
+        border-style: groove;
+        margin-top : 50px;
+        margin-left: 400px;
+        padding-left: 40px;
+        border-radius: 20px;
+        border-bottom-style: dotted;
+    }
      p.yo{
         font-style: oblique;
      }
-     p.hiyo{
+     #hiyohomepage{
         font-style: italic;
      }
 
      .underline{
      	text-decoration: underline;
      }
-	
+     .imagec{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+        border-color: black;
+        border-style: solid;
+        background-color: black;
+     }
+     span.hmm{
+        padding: 10px;
+        background-color: yellow;
+        border-color: black;
+        border-style: solid;
+        border-width: 2px
+        
+     }
+
+	div.made{
+        background-color: yellow ;
+        color: black;
+        position: fixed;
+        top: 20px;
+        right: 10px;
+        width: 200px;
+        height: 50px;
+        padding: 3px;
+        border-width: 1px;
+        border-color: black;
+        border-style: solid;
+        font-family: geogia;
+    }
+    .image{
+        float: left;
+        margin-bottom: 300px;
+    }
+#head ul{
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+#head li a{
+    display: block;
+    text-decoration: none;
+    background-color: rgb(79,109,69);
+    width: 80px;
+    color: white;
+    font-family: georgia,default;
+    font-size: .8em;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+
+}
+#head a:hover {
+    color: black;
+    background-color: #d3d3d3;
+
+}
+
+#nav{
+    background-color: rgb(79,109,69);
+    height: 35px;
+    font-size: 25px;
+    font: tahoma;
+    border-style: solid;
+    border-width: 1px;
+    border-color:  black;
+
+ }
+#nav ul{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    text-decoration: none;
+}
+#nav li a{
+    text-decoration: none;
+    color: white;
+    display: inline;
+    padding:8px 8px 8px 8px;
+    
+    font-size: .9em;
+    vertical-align: middle;
+    
+
+}
+#nav li{
+ display: inline;   
+ padding:15px;
+}
+#nav li a:hover{
+    background-color: rgb(224,198,148);
+    color: black;
+    border-style: solid;
+    border-width: 5px;
+    border-color:  rgb(224,198,148);
+    
+
+
+
+}
+.button{
+    background:#e7e7e7;
+    border: 1px solid;
+    border-radius: 3px;
+    font:700 13px Helvetica,Arial;
+    height: 800px;
+    line-height: 28px;
+    padding:0 20px;
+    text-align: center;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+ul{
+
+    padding:0;
+    list-style: none;
+
+}
+
+li{
+    display: inline;
+    
+}
+ul li a{
+    text-decoration: none;
+    color:| #666;
+    
+}
